@@ -3,10 +3,7 @@
 #include <assert.h>
 #include "declarations.h"
 /*
- * SYSC1006 - Assignment 02
  * Home Energy Usage Calculator
- * Student Name: Asma Ahmadzai
- * Student ID: 101333739
  */
 double get_budget(void) {
     double budget;
