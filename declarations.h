@@ -2,19 +2,12 @@
 #define DECLARATIONS_H
 
 /*
- * SYSC1006 - Assignment 02
  * Home Energy Usage Calculator
- *
- * Student Name: Asma Ahmadzai
- * Student ID: 101333739
- *
- * IMPORTANT: Do not modify the function prototypes below.
  */
 
 #define DAYS_IN_MONTH 30
 #define ELECTRICITY_RATE 0.15
 
-/********** DON'T MODIFY **********/
 double get_budget(void);
 int get_num_appliances(void);
 double* create_array(int size);
@@ -26,6 +19,5 @@ double calculate_total_cost(int n, const double *costs);
 int find_highest_cost(int n, const double *costs);
 void print_report(int n, const double *power, const double *hours, const double *costs, double budget);
 void free_array(double *array);
-/********** DON'T MODIFY **********/
 
 #endif
