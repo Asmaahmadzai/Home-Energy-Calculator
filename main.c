@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include "declarations.h"
 /*
- * SYSC1006 - Assignment 02
  * Home Energy Usage Calculator
- * Student Name: Asma Ahmadzai
- * Student ID: 101333739
  */
 int main(void) {
     double budget;
