@@ -2,14 +2,6 @@
 #include "sput.h"
 #include "declarations.h"
 
-/* SYSC 1006 A02 Test Harness.
- *
- * Compile this file with the student's definitions.c and declarations.h.
- * DO NOT MODIFY THIS FILE!
- * Do not compile it with the student's main.c because both files contain main().
- */
-
-
 void test_monthly_energy(void) {
     sput_fail_unless(close_enough(calculate_monthly_energy(1000.0, 1.0), 30.0),
                      "1000 W for 1 hour/day = 30.00 kWh/month");
