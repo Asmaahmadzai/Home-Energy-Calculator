@@ -21,5 +21,6 @@ For appliances such as:
 * TV: 120 W for 5 hours/day
 * Computer: 300 W for 8 hours/day
 * Microwave: 1000 W for 0.5 hours/day
+
 The program calculates a total monthly electricity cost of:
 `$15.75`
